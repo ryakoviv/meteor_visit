@@ -1,0 +1,40 @@
+body{
+	background-color: #848484;
+}
+
+h1{
+	text-align: center;
+	margin: 20px 0 40px 0;
+}
+
+#wreapper{
+	width: 950px;
+	height: 800px;
+	background-color: white;
+	margin: 30px auto;
+	border: 1px solid;
+	padding: 30px 30px;
+	background: white;
+}
+
+#wreapper>img{
+	height: 450px;
+	width: 300px;
+}
+
+#sidebar{
+	float: left;
+}
+
+#my_foto{
+	float: right;
+}
+
+#content{
+	padding-left: 170px;
+	height: 500px;
+}
+
+#album{
+	text-align: center;
+}

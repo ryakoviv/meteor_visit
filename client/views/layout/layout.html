@@ -4,7 +4,7 @@
 <body>
 	<div id="wreapper">
 		<h1>Сайт візитка</h1>
-		<img src="my-foto.jpg">
+		<img src="my-foto.jpg" id="my_foto">
 		<div id="sidebar">
 			{{> tplSidebar}}	
 		</div>
@@ -14,64 +14,8 @@
 		<div id="album">
 			{{> tplAlbum}}
 		</div>
+		<div id="pop-up">
+			{{> tplPopUp}}
+		</div>
 	</div>
 </body>
-
-
-<template name="tplSidebar">
-	<ul>
-		<li>Меню</li>
-		<li class="button" id="home">Головна</li>
-		<li class="button" id="bio">Біографія</li>
-		<li class="button" id="education">Освіта</li>
-		<li class="button" id="career">Карєра</li>
-	</ul>
-</template>
-
-<template name="tplContent">
-	{{#if hlHome}}
-		{{> tplHome}}
-	{{/if}}
-	{{#if hlBio}}
-		{{> tplBio}}
-	{{/if}}
-	{{#if hlEducation}}
-		{{> tplEducation}}
-	{{/if}}
-	{{#if hlCareer}}
-		{{> tplCareer}}
-	{{/if}}
-</template>
-
-
-<template name="tplHome">
-	<h3>Головна</h3>
-	<p>
-		Дякую, що завітали на мій сайт візитку. Даний сайт для відображення рівня моїх знань Meteor JS. Як видно
-		знання не глубокі, знаю тільки основи, ніколи не працював веб-розробником, темою веб-програмування почав цікавитися коли почув про набір на курси JSSolution. Надіюся з часом сайт ставатимекращим та більш функціональним
-		по мірі мого подальшого освоєння Meteor JS.
-	</p>	
-</template>
-
-<template name="tplBio">
-	<h3>Біографія</h3>
-	<p>Народився, живу ще не вмер</p>	
-</template>
-
-<template name="tplEducation">
-	<h3>Освіта</h3>
-	<p>З 1999р по 2007р вчився в школі</p>	
-	<p>З 2007 по 2011р вчився в коледжі</p>
-	<p>З 2011 по 2014р ходив в універ</p>
-</template>
-
-<template name="tplCareer">
-	<h3>Карєра</h3>
-	<p>Страшний карєрист</p>	
-</template>
-
-<template name="tplAlbum">
-	{{#each hlPhotos}}
-		<img src="{{this}}" width="20%">
-	{{/each}}
-</template>

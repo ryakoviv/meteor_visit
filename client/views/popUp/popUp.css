@@ -1,0 +1,18 @@
+.imgPopUp{
+	top: 0;
+	left: 0;
+	position: fixed;
+	margin: 0 auto;
+	width: 90%;
+	height: 90%;
+	padding: 2%;
+	border: 2px solid RGBA(0, 0, 0, 0.75);
+	background-color: RGBA(0, 0, 0, 0.75);
+	text-align: center;
+}
+
+.imgPopUp > img{
+	margin: 0 auto;
+	vertical-align: center;
+	display: table-cell;
+}

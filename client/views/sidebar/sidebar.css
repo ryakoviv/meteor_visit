@@ -1,0 +1,32 @@
+#menu{
+	list-style: none;
+	text-align: center;
+	font-size: 20px;
+	padding-left: 0;
+	margin-top:0;
+}
+
+#menu >.button{
+	background-color: skyblue;
+	margin: 0 0;
+	width: 150px;
+	height: 30px;
+	border-top: 1px solid black;
+	border-right: 1px solid black;
+	border-left: 1px solid black; 
+	cursor: pointer;
+}
+
+#menu > #career{
+	border-bottom: 1px solid;
+}
+
+#menu > #heater_button{
+	background-color: blue;
+	margin: 0 0;
+	width: 150px;
+	height: 30px;
+	border-top: 1px solid black;
+	border-right: 1px solid black;
+	border-left: 1px solid black; 
+}
