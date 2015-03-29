@@ -15,15 +15,10 @@ Template.tplAlbum.helpers({
         },
       ];
     },
-
-    //hlPhotosSize: function(){
-    //  return["20%", "20%", "11.2%", "22.5%"];
-    //}
 });
 
 Template.tplAlbum.events({
     'click img': function (event) {
       Session.set('nameImgPop',event.target.src);
-      console.log(Session.get('nameImgPop'));
     }
 });

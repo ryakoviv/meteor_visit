@@ -13,6 +13,5 @@
 
 .imgPopUp > img{
 	margin: 0 auto;
-	vertical-align: center;
 	display: table-cell;
 }

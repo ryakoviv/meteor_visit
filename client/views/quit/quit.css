@@ -1,0 +1,25 @@
+#quit{
+	width: 600px;
+	height: 450px;
+	background-color: white;
+	margin: 30px auto;
+	border: 1px solid green;
+	padding: 30px 30px;
+	background-image: url(quit.jpg);
+	background-repeat: no-repeat;
+	background-position: bottom;
+	text-align: center;
+}
+
+#quit> .button{
+	display: inline;
+	margin: 50px 30px;
+	padding: 3px 3px;
+	background-color: silver;
+	border: 1px solid black;
+}
+
+#quit> a, a:visited, a:active{
+	text-decoration: none;
+	color: black;
+}

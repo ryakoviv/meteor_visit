@@ -1,7 +1,4 @@
-<head>
-	<title>Сайт візитка</title>
-</head>
-<body>
+<template name="MasterLayout">
 	<div id="wreapper">
 		<h1>Сайт візитка</h1>
 		<img src="my-foto.jpg" id="my_foto">
@@ -9,7 +6,7 @@
 			{{> tplSidebar}}	
 		</div>
 		<div id="content">
-			{{> tplContent}}
+			{{> yield}}
 		</div>
 		<div id="album">
 			{{> tplAlbum}}
@@ -18,4 +15,4 @@
 			{{> tplPopUp}}
 		</div>
 	</div>
-</body>
+</template>

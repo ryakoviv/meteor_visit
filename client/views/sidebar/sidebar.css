@@ -6,7 +6,7 @@
 	margin-top:0;
 }
 
-#menu >.button{
+#menu > .button{
 	background-color: skyblue;
 	margin: 0 0;
 	width: 150px;
@@ -14,10 +14,9 @@
 	border-top: 1px solid black;
 	border-right: 1px solid black;
 	border-left: 1px solid black; 
-	cursor: pointer;
 }
 
-#menu > #career{
+#career{
 	border-bottom: 1px solid;
 }
 
@@ -30,3 +29,9 @@
 	border-right: 1px solid black;
 	border-left: 1px solid black; 
 }
+
+li a, a:visited, a:active{
+	text-decoration: none;
+	color: black;
+}
+

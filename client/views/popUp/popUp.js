@@ -17,6 +17,5 @@ Template.tplPopUp.helpers({
 Template.tplPopUp.events({
     'click': function () {
       Session.set('nameImgPop',"");
-      console.log(Session.get('nameImgPop'));
     }
 });
